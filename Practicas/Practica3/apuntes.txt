@@ -1,0 +1,32 @@
+Flex
+
+1) Instalar "flex"
+	sudo apt install flex flex-doc
+	whatis flex
+	info flex
+
+2) Editar un archivo ejemplo1.l
+
+Escribimos lo siguiente
+
+	%%
+	hola	printf("adios");
+
+3) Compilamos con:
+
+	flex ejemplo1.l
+	gcc lex.yy.c -ll
+		     -lfl
+		     -lflex
+	
+	Exclusivo para LM 
+
+	sudo apt-get install libfl-dev
+
+4) Ejecutamos con ./a.out
+
+5) Probar el ejemplo del lenguaje de juguete
+
+6) Escribe un programa en pascal ejmplo.pas
+
+7) ./a.out ejemplo.pas

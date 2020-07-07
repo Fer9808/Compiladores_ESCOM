@@ -1,0 +1,25 @@
+
+;; Function main (null)
+;; enabled by -tree-original
+
+
+{
+  int c;
+
+    int c;
+  {
+    int x = 0;
+
+        int x = 0;
+    goto <D.1798>;
+    <D.1797>:;
+    c = c + x;
+    x++ ;
+    <D.1798>:;
+    if (x <= 9) goto <D.1797>; else goto <D.1799>;
+    <D.1799>:;
+  }
+  return c;
+}
+return 0;
+

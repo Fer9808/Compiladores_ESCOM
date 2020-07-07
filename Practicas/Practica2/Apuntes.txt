@@ -1,0 +1,12 @@
+07/02/2020
+
+Instalar dot para hacer nuestro modelado de Automatas.
+
+	$ sudo apt-get install graphviz
+
+Para compilar se utiliza el comando 
+
+	$ dot -Tpng ejemplo.gv > ejemplo.png
+
+Nota: '>' redirige el binario que nos da la instruccion anterior a un archivo .png
+

@@ -1,0 +1,10 @@
+Crear un proyecto en c que traduzca gramtica en infijo a postfijo
+
+Solo que acepte caracteres comunes
+    a - z
+    +  
+    *
+    |
+    ()
+    
+Esto es para hacer un proyecto que al ingresar nosotros un automata de gramatica infija y no haga el automata en imagen, graficandolo.

@@ -1,0 +1,9 @@
+digraph automata {
+	rankdir = LR; //Muestra el automata acostado
+	node [shape = circle]; //Nos hace todos los nodos en circulo
+	2 [shape = doublecircle]; //Nos da dos circulos el nodo dos para que sea el estado final
+	inicio [shape = point];
+
+	inicio -> 1 [label = "Inicio"];
+	1 -> 2 [label = "a"]; //label nos permite ponerle nombre a la transición
+}

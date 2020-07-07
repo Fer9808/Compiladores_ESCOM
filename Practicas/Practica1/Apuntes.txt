@@ -1,0 +1,33 @@
+Compiladores
+
+Sesión 1
+
+1. Iniciar en GNU/Linux
+2. Abrir una terminal (ctrl + alt + t)
+3. Maximizar espacio de trabajo (F11)
+4. Revisar version del compilador gcc
+    $ gcc --version
+5. Compilar el programa minimo en C (prueba.c)
+    $ sudo gcc prueba.c
+6. Ejecutar
+    $ ./a.out
+7. Comprobar el estado de salida de la acción anterior con 
+    $ echo $?
+8. Abrir el manual de gcc
+    $ sudo man gcc
+9. Buscar los estándares del compilador
+    /std
+10. Buscar las opciones del preprocesador
+11. Visualizar el contenido
+    $ hexdump -C prueba.c
+12. Buscar en el manual de gcc la forma de que entrege el codigo de ensamblador
+    $ gcc -S prueba.c
+13. Cambiar el programa para utilizar el ciclo for
+14. Observar la salida en ensamblador 
+15. Compilar normal, sin opciones
+16. Visualizar el ejecutable
+    $ objdump -f a.out
+              -x
+              -d
+17. Buscar el código generador de código intermedio
+    $ gcc -SSA representation -
